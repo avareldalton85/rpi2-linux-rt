@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/sha512-arm-neon.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o arch/arm/crypto/sha512-arm-neon.ko arch/arm/crypto/sha512-arm-neon.o arch/arm/crypto/sha512-arm-neon.mod.o

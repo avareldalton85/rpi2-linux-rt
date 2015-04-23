@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/mt2266.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/mt2266.ko drivers/media/tuners/mt2266.o drivers/media/tuners/mt2266.mod.o

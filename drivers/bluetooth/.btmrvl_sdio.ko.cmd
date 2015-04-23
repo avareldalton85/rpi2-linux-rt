@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/btmrvl_sdio.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/bluetooth/btmrvl_sdio.ko drivers/bluetooth/btmrvl_sdio.o drivers/bluetooth/btmrvl_sdio.mod.o

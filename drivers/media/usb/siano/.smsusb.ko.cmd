@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/siano/smsusb.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/siano/smsusb.ko drivers/media/usb/siano/smsusb.o drivers/media/usb/siano/smsusb.mod.o

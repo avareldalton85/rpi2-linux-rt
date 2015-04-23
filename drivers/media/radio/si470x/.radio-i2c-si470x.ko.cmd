@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/si470x/radio-i2c-si470x.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/radio/si470x/radio-i2c-si470x.ko drivers/media/radio/si470x/radio-i2c-si470x.o drivers/media/radio/si470x/radio-i2c-si470x.mod.o

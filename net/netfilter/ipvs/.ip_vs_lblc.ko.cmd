@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipvs/ip_vs_lblc.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/ipvs/ip_vs_lblc.ko net/netfilter/ipvs/ip_vs_lblc.o net/netfilter/ipvs/ip_vs_lblc.mod.o

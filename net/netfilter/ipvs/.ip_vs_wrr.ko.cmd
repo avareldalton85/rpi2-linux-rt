@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipvs/ip_vs_wrr.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/ipvs/ip_vs_wrr.ko net/netfilter/ipvs/ip_vs_wrr.o net/netfilter/ipvs/ip_vs_wrr.mod.o

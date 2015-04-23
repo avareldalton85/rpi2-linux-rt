@@ -1,0 +1,1 @@
+rpi-display-overlay.o: arch/arm/boot/dts/rpi-display-overlay.dts

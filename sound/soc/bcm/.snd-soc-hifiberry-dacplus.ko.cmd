@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-hifiberry-dacplus.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/soc/bcm/snd-soc-hifiberry-dacplus.ko sound/soc/bcm/snd-soc-hifiberry-dacplus.o sound/soc/bcm/snd-soc-hifiberry-dacplus.mod.o

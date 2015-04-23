@@ -1,0 +1,1 @@
+cmd_lib/zlib_deflate/zlib_deflate.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o lib/zlib_deflate/zlib_deflate.ko lib/zlib_deflate/zlib_deflate.o lib/zlib_deflate/zlib_deflate.mod.o

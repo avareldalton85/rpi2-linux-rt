@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/wl128x/built-in.o :=  rm -f drivers/media/radio/wl128x/built-in.o; ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ar rcsD drivers/media/radio/wl128x/built-in.o

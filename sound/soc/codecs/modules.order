@@ -1,0 +1,6 @@
+kernel/sound/soc/codecs/snd-soc-pcm512x.ko
+kernel/sound/soc/codecs/snd-soc-pcm512x-i2c.ko
+kernel/sound/soc/codecs/snd-soc-pcm1794a.ko
+kernel/sound/soc/codecs/snd-soc-pcm5102a.ko
+kernel/sound/soc/codecs/snd-soc-tas5713.ko
+kernel/sound/soc/codecs/snd-soc-wm8804.ko

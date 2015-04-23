@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-pinnacle-pctv-hd.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-pinnacle-pctv-hd.ko drivers/media/rc/keymaps/rc-pinnacle-pctv-hd.o drivers/media/rc/keymaps/rc-pinnacle-pctv-hd.mod.o

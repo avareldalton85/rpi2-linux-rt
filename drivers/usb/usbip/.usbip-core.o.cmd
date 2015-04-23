@@ -1,0 +1,1 @@
+cmd_drivers/usb/usbip/usbip-core.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/usb/usbip/usbip-core.o drivers/usb/usbip/usbip_common.o drivers/usb/usbip/usbip_event.o 

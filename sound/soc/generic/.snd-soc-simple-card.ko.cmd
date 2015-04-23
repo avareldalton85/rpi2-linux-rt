@@ -1,0 +1,1 @@
+cmd_sound/soc/generic/snd-soc-simple-card.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/soc/generic/snd-soc-simple-card.ko sound/soc/generic/snd-soc-simple-card.o sound/soc/generic/snd-soc-simple-card.mod.o

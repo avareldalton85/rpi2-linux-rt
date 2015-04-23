@@ -1,0 +1,1 @@
+cmd_net/bluetooth/bnep/bnep.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/bluetooth/bnep/bnep.ko net/bluetooth/bnep/bnep.o net/bluetooth/bnep/bnep.mod.o

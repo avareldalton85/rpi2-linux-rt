@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/go7007/s2250.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/media/usb/go7007/s2250.o drivers/media/usb/go7007/s2250-board.o 

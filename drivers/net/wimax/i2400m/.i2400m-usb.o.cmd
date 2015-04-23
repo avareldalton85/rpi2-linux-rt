@@ -1,0 +1,1 @@
+cmd_drivers/net/wimax/i2400m/i2400m-usb.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/net/wimax/i2400m/i2400m-usb.o drivers/net/wimax/i2400m/usb-fw.o drivers/net/wimax/i2400m/usb-notif.o drivers/net/wimax/i2400m/usb-tx.o drivers/net/wimax/i2400m/usb-rx.o drivers/net/wimax/i2400m/usb.o 

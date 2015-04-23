@@ -1,0 +1,1 @@
+cmd_drivers/thermal/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/thermal/built-in.o drivers/thermal/thermal_sys.o drivers/thermal/samsung/built-in.o drivers/thermal/bcm2835-thermal.o 

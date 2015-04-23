@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/legousbtower.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/misc/legousbtower.ko drivers/usb/misc/legousbtower.o drivers/usb/misc/legousbtower.mod.o

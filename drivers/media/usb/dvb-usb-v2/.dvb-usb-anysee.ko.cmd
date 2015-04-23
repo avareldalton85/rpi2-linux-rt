@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.ko drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.o drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.mod.o

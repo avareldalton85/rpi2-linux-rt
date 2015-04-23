@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/xpad.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/joystick/xpad.ko drivers/input/joystick/xpad.o drivers/input/joystick/xpad.mod.o

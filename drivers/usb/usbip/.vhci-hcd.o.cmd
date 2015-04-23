@@ -1,0 +1,1 @@
+cmd_drivers/usb/usbip/vhci-hcd.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/usb/usbip/vhci-hcd.o drivers/usb/usbip/vhci_sysfs.o drivers/usb/usbip/vhci_tx.o drivers/usb/usbip/vhci_rx.o drivers/usb/usbip/vhci_hcd.o 

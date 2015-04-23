@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/bcm2835/bcm2835-v4l2.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/media/platform/bcm2835/bcm2835-v4l2.o drivers/media/platform/bcm2835/bcm2835-camera.o drivers/media/platform/bcm2835/controls.o drivers/media/platform/bcm2835/mmal-vchiq.o 

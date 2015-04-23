@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/shark2.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/media/radio/shark2.o drivers/media/radio/radio-shark2.o drivers/media/radio/radio-tea5777.o 

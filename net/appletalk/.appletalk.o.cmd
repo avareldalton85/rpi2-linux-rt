@@ -1,0 +1,1 @@
+cmd_net/appletalk/appletalk.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o net/appletalk/appletalk.o net/appletalk/aarp.o net/appletalk/ddp.o net/appletalk/dev.o net/appletalk/atalk_proc.o net/appletalk/sysctl_net_atalk.o 

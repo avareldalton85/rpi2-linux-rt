@@ -1,0 +1,1 @@
+cmd_drivers/net/hamradio/mkiss.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/hamradio/mkiss.ko drivers/net/hamradio/mkiss.o drivers/net/hamradio/mkiss.mod.o

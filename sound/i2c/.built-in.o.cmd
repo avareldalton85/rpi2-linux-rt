@@ -1,0 +1,1 @@
+cmd_sound/i2c/built-in.o :=  rm -f sound/i2c/built-in.o; ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ar rcsD sound/i2c/built-in.o

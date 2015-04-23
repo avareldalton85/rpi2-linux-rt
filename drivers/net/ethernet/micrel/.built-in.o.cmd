@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/micrel/built-in.o :=  rm -f drivers/net/ethernet/micrel/built-in.o; ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ar rcsD drivers/net/ethernet/micrel/built-in.o

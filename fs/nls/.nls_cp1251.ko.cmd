@@ -1,0 +1,1 @@
+cmd_fs/nls/nls_cp1251.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o fs/nls/nls_cp1251.ko fs/nls/nls_cp1251.o fs/nls/nls_cp1251.mod.o

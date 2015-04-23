@@ -1,0 +1,1 @@
+cmd_drivers/staging/speakup/built-in.o :=  rm -f drivers/staging/speakup/built-in.o; ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ar rcsD drivers/staging/speakup/built-in.o

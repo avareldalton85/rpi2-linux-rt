@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-zpff.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-zpff.ko drivers/hid/hid-zpff.o drivers/hid/hid-zpff.mod.o

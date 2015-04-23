@@ -1,0 +1,1 @@
+cmd_drivers/media/common/siano/smsmdtv.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/common/siano/smsmdtv.ko drivers/media/common/siano/smsmdtv.o drivers/media/common/siano/smsmdtv.mod.o

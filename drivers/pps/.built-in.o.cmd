@@ -1,0 +1,1 @@
+cmd_drivers/pps/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/pps/built-in.o drivers/pps/clients/built-in.o drivers/pps/generators/built-in.o 

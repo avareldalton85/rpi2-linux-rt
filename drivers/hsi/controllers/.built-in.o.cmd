@@ -1,0 +1,1 @@
+cmd_drivers/hsi/controllers/built-in.o :=  rm -f drivers/hsi/controllers/built-in.o; ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ar rcsD drivers/hsi/controllers/built-in.o

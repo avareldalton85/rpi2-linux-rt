@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/stkwebcam/stkwebcam.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/media/usb/stkwebcam/stkwebcam.o drivers/media/usb/stkwebcam/stk-webcam.o drivers/media/usb/stkwebcam/stk-sensor.o 

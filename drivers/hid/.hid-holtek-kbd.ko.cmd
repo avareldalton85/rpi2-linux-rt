@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-holtek-kbd.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-holtek-kbd.ko drivers/hid/hid-holtek-kbd.o drivers/hid/hid-holtek-kbd.mod.o

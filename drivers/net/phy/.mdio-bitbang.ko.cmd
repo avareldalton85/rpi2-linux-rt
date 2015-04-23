@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/mdio-bitbang.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/phy/mdio-bitbang.ko drivers/net/phy/mdio-bitbang.o drivers/net/phy/mdio-bitbang.mod.o

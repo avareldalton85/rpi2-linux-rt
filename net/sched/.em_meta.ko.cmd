@@ -1,0 +1,1 @@
+cmd_net/sched/em_meta.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/em_meta.ko net/sched/em_meta.o net/sched/em_meta.mod.o

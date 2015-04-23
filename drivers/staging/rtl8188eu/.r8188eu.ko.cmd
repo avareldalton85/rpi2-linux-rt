@@ -1,0 +1,1 @@
+cmd_drivers/staging/rtl8188eu/r8188eu.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/rtl8188eu/r8188eu.ko drivers/staging/rtl8188eu/r8188eu.o drivers/staging/rtl8188eu/r8188eu.mod.o

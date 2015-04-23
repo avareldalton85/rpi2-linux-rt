@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/tm6000/built-in.o :=  rm -f drivers/media/usb/tm6000/built-in.o; ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ar rcsD drivers/media/usb/tm6000/built-in.o

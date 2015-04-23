@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/mcs7830.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/usb/mcs7830.ko drivers/net/usb/mcs7830.o drivers/net/usb/mcs7830.mod.o

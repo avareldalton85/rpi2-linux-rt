@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/yealink.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/yealink.ko drivers/input/misc/yealink.o drivers/input/misc/yealink.mod.o

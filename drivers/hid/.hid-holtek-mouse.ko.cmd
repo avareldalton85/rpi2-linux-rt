@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-holtek-mouse.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-holtek-mouse.ko drivers/hid/hid-holtek-mouse.o drivers/hid/hid-holtek-mouse.mod.o

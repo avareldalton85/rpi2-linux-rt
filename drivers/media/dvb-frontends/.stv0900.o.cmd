@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stv0900.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/media/dvb-frontends/stv0900.o drivers/media/dvb-frontends/stv0900_core.o drivers/media/dvb-frontends/stv0900_sw.o 

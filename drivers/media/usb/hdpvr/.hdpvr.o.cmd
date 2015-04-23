@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/hdpvr/hdpvr.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/media/usb/hdpvr/hdpvr.o drivers/media/usb/hdpvr/hdpvr-control.o drivers/media/usb/hdpvr/hdpvr-core.o drivers/media/usb/hdpvr/hdpvr-video.o drivers/media/usb/hdpvr/hdpvr-i2c.o 

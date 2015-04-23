@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/omap2/displays-new/built-in.o :=  rm -f drivers/video/fbdev/omap2/displays-new/built-in.o; ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ar rcsD drivers/video/fbdev/omap2/displays-new/built-in.o

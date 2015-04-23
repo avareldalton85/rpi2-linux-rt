@@ -1,0 +1,1 @@
+cmd_drivers/usb/host/dwc_common_port/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/usb/host/dwc_common_port/built-in.o drivers/usb/host/dwc_common_port/dwc_common_port_lib.o 

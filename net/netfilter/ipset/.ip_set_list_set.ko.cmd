@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_list_set.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/ipset/ip_set_list_set.ko net/netfilter/ipset/ip_set_list_set.o net/netfilter/ipset/ip_set_list_set.mod.o

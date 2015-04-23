@@ -1,0 +1,1 @@
+cmd_net/xfrm/xfrm_ipcomp.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/xfrm/xfrm_ipcomp.ko net/xfrm/xfrm_ipcomp.o net/xfrm/xfrm_ipcomp.mod.o

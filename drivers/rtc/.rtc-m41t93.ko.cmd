@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-m41t93.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/rtc/rtc-m41t93.ko drivers/rtc/rtc-m41t93.o drivers/rtc/rtc-m41t93.mod.o

@@ -1,0 +1,1 @@
+cmd_sound/drivers/mpu401/snd-mpu401-uart.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/drivers/mpu401/snd-mpu401-uart.ko sound/drivers/mpu401/snd-mpu401-uart.o sound/drivers/mpu401/snd-mpu401-uart.mod.o

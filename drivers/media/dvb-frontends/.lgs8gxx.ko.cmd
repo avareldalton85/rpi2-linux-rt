@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/lgs8gxx.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/lgs8gxx.ko drivers/media/dvb-frontends/lgs8gxx.o drivers/media/dvb-frontends/lgs8gxx.mod.o

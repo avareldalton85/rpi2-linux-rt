@@ -1,0 +1,135 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0xb95b937f, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0xffc13d96, __VMLINUX_SYMBOL_STR(tty_port_tty_get) },
+	{ 0x2d3385d3, __VMLINUX_SYMBOL_STR(system_wq) },
+	{ 0xd01d57ff, __VMLINUX_SYMBOL_STR(kmalloc_caches) },
+	{ 0xb9394173, __VMLINUX_SYMBOL_STR(irias_delete_value) },
+	{ 0x4d7272e4, __VMLINUX_SYMBOL_STR(migrate_enable) },
+	{ 0x91815586, __VMLINUX_SYMBOL_STR(irda_param_pack) },
+	{ 0x7353905, __VMLINUX_SYMBOL_STR(single_open) },
+	{ 0x67c2fa54, __VMLINUX_SYMBOL_STR(__copy_to_user) },
+	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
+	{ 0xc996d097, __VMLINUX_SYMBOL_STR(del_timer) },
+	{ 0xbd6a060c, __VMLINUX_SYMBOL_STR(tty_port_close_end) },
+	{ 0x763e54a4, __VMLINUX_SYMBOL_STR(irlmp_unregister_client) },
+	{ 0x30934c9f, __VMLINUX_SYMBOL_STR(single_release) },
+	{ 0x48a3747b, __VMLINUX_SYMBOL_STR(seq_puts) },
+	{ 0xc9891e43, __VMLINUX_SYMBOL_STR(remove_wait_queue) },
+	{ 0xf37636e1, __VMLINUX_SYMBOL_STR(tty_hung_up_p) },
+	{ 0x6b3e609d, __VMLINUX_SYMBOL_STR(__rt_mutex_init) },
+	{ 0x2a3aa678, __VMLINUX_SYMBOL_STR(_test_and_clear_bit) },
+	{ 0xac1c6b4a, __VMLINUX_SYMBOL_STR(seq_printf) },
+	{ 0x5beaa728, __VMLINUX_SYMBOL_STR(irias_delete_object) },
+	{ 0xb1ad28e0, __VMLINUX_SYMBOL_STR(__gnu_mcount_nc) },
+	{ 0xd5fe8c49, __VMLINUX_SYMBOL_STR(tty_register_driver) },
+	{ 0x593a99b, __VMLINUX_SYMBOL_STR(init_timer_key) },
+	{ 0x664c46e6, __VMLINUX_SYMBOL_STR(tty_port_carrier_raised) },
+	{ 0xcede2366, __VMLINUX_SYMBOL_STR(put_tty_driver) },
+	{ 0xdbe0781f, __VMLINUX_SYMBOL_STR(tty_port_close_start) },
+	{ 0xd663ab90, __VMLINUX_SYMBOL_STR(ircomm_connect_response) },
+	{ 0x5e03596d, __VMLINUX_SYMBOL_STR(seq_read) },
+	{ 0x48956a7, __VMLINUX_SYMBOL_STR(irias_insert_object) },
+	{ 0x7d11c268, __VMLINUX_SYMBOL_STR(jiffies) },
+	{ 0xb9b6047b, __VMLINUX_SYMBOL_STR(tty_set_operations) },
+	{ 0xb859f521, __VMLINUX_SYMBOL_STR(rt_spin_lock) },
+	{ 0x92d47b5f, __VMLINUX_SYMBOL_STR(iriap_getvaluebyclass_request) },
+	{ 0x3c73e696, __VMLINUX_SYMBOL_STR(rt_spin_unlock) },
+	{ 0x7042bc54, __VMLINUX_SYMBOL_STR(irlmp_register_client) },
+	{ 0xffd5a395, __VMLINUX_SYMBOL_STR(default_wake_function) },
+	{ 0xfa2a45e, __VMLINUX_SYMBOL_STR(__memzero) },
+	{ 0x8695b9a8, __VMLINUX_SYMBOL_STR(hashbin_new) },
+	{ 0xbdf7308a, __VMLINUX_SYMBOL_STR(hashbin_delete) },
+	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
+	{ 0xb3c40fe7, __VMLINUX_SYMBOL_STR(ircomm_disconnect_request) },
+	{ 0xa51581a, __VMLINUX_SYMBOL_STR(hashbin_get_next) },
+	{ 0x328a05f1, __VMLINUX_SYMBOL_STR(strncpy) },
+	{ 0xd4249692, __VMLINUX_SYMBOL_STR(seq_putc) },
+	{ 0x73e20c1c, __VMLINUX_SYMBOL_STR(strlcpy) },
+	{ 0x3ef4319c, __VMLINUX_SYMBOL_STR(tty_port_init) },
+	{ 0x993ad14b, __VMLINUX_SYMBOL_STR(irda_param_extract_all) },
+	{ 0x42de744b, __VMLINUX_SYMBOL_STR(tty_insert_flip_string_fixed_flag) },
+	{ 0xb0766e6f, __VMLINUX_SYMBOL_STR(tty_port_destroy) },
+	{ 0x8834396c, __VMLINUX_SYMBOL_STR(mod_timer) },
+	{ 0x49608959, __VMLINUX_SYMBOL_STR(migrate_disable) },
+	{ 0xc7944d35, __VMLINUX_SYMBOL_STR(__rt_spin_lock_init) },
+	{ 0x7d3647c, __VMLINUX_SYMBOL_STR(irlmp_register_service) },
+	{ 0x5fe15479, __VMLINUX_SYMBOL_STR(ircomm_connect_request) },
+	{ 0x67b27ec1, __VMLINUX_SYMBOL_STR(tty_std_termios) },
+	{ 0xa5d22097, __VMLINUX_SYMBOL_STR(__alloc_skb) },
+	{ 0xc7d00f05, __VMLINUX_SYMBOL_STR(tty_driver_flush_buffer) },
+	{ 0xdc0926ee, __VMLINUX_SYMBOL_STR(irias_add_integer_attrib) },
+	{ 0x3bd1b1f6, __VMLINUX_SYMBOL_STR(msecs_to_jiffies) },
+	{ 0x1000e51, __VMLINUX_SYMBOL_STR(schedule) },
+	{ 0x6b415b72, __VMLINUX_SYMBOL_STR(hashbin_get_first) },
+	{ 0x7f237afb, __VMLINUX_SYMBOL_STR(iriap_close) },
+	{ 0xbe40ace9, __VMLINUX_SYMBOL_STR(irlmp_discovery_request) },
+	{ 0x11f48d94, __VMLINUX_SYMBOL_STR(tty_port_install) },
+	{ 0x640a53f1, __VMLINUX_SYMBOL_STR(irda_notify_init) },
+	{ 0x1b056ec3, __VMLINUX_SYMBOL_STR(kmem_cache_alloc_trace) },
+	{ 0x754d45ec, __VMLINUX_SYMBOL_STR(tty_unregister_driver) },
+	{ 0xb7c640ea, __VMLINUX_SYMBOL_STR(irias_add_octseq_attrib) },
+	{ 0x972b2ca3, __VMLINUX_SYMBOL_STR(tty_hangup) },
+	{ 0x6e9ef562, __VMLINUX_SYMBOL_STR(__wake_up) },
+	{ 0xf6ebc03b, __VMLINUX_SYMBOL_STR(net_ratelimit) },
+	{ 0xf47c52f0, __VMLINUX_SYMBOL_STR(tty_port_tty_hangup) },
+	{ 0xfee09c47, __VMLINUX_SYMBOL_STR(prepare_to_wait_event) },
+	{ 0x797a18ec, __VMLINUX_SYMBOL_STR(__tty_alloc_driver) },
+	{ 0x44d6ddce, __VMLINUX_SYMBOL_STR(ircomm_control_request) },
+	{ 0x409873e3, __VMLINUX_SYMBOL_STR(tty_termios_baud_rate) },
+	{ 0xfc7558b0, __VMLINUX_SYMBOL_STR(add_wait_queue) },
+	{ 0x2d7fd92f, __VMLINUX_SYMBOL_STR(seq_lseek) },
+	{ 0x30b30184, __VMLINUX_SYMBOL_STR(iriap_open) },
+	{ 0x9c55cec, __VMLINUX_SYMBOL_STR(schedule_timeout_interruptible) },
+	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
+	{ 0x9d669763, __VMLINUX_SYMBOL_STR(memcpy) },
+	{ 0xc18466b0, __VMLINUX_SYMBOL_STR(ircomm_close) },
+	{ 0xf1d02886, __VMLINUX_SYMBOL_STR(tty_kref_put) },
+	{ 0xa8ce6ea4, __VMLINUX_SYMBOL_STR(finish_wait) },
+	{ 0x3c04e6c9, __VMLINUX_SYMBOL_STR(ircomm_open) },
+	{ 0x2a3427b5, __VMLINUX_SYMBOL_STR(tty_flip_buffer_push) },
+	{ 0x31ab1d20, __VMLINUX_SYMBOL_STR(hashbin_lock_find) },
+	{ 0x676bbc0f, __VMLINUX_SYMBOL_STR(_set_bit) },
+	{ 0x46c1c4a2, __VMLINUX_SYMBOL_STR(irlmp_unregister_service) },
+	{ 0xb2d48a2e, __VMLINUX_SYMBOL_STR(queue_work_on) },
+	{ 0xca54fee, __VMLINUX_SYMBOL_STR(_test_and_set_bit) },
+	{ 0xb524b559, __VMLINUX_SYMBOL_STR(irias_new_object) },
+	{ 0x3b8e878, __VMLINUX_SYMBOL_STR(consume_skb) },
+	{ 0x636b24d2, __VMLINUX_SYMBOL_STR(tty_port_tty_set) },
+	{ 0xcb5afacf, __VMLINUX_SYMBOL_STR(ircomm_flow_request) },
+	{ 0xe461c963, __VMLINUX_SYMBOL_STR(ircomm_data_request) },
+	{ 0x22f43ee2, __VMLINUX_SYMBOL_STR(tty_port_raise_dtr_rts) },
+	{ 0xde4c6b3c, __VMLINUX_SYMBOL_STR(irlmp_service_to_hint) },
+	{ 0x49ebacbd, __VMLINUX_SYMBOL_STR(_clear_bit) },
+	{ 0x72ad5ac6, __VMLINUX_SYMBOL_STR(tty_wakeup) },
+	{ 0x40d9bc6f, __VMLINUX_SYMBOL_STR(skb_put) },
+	{ 0xa2e5d48e, __VMLINUX_SYMBOL_STR(hashbin_insert) },
+	{ 0x2036ad06, __VMLINUX_SYMBOL_STR(irda_param_insert) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=irda,ircomm";
+
+
+MODULE_INFO(srcversion, "6EDE759761841291FC1508D");

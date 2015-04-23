@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/zr364xx/zr364xx.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/zr364xx/zr364xx.ko drivers/media/usb/zr364xx/zr364xx.o drivers/media/usb/zr364xx/zr364xx.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/common/siano/smsdvb.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/media/common/siano/smsdvb.o drivers/media/common/siano/smsdvb-main.o 

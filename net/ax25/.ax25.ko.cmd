@@ -1,0 +1,1 @@
+cmd_net/ax25/ax25.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/ax25/ax25.ko net/ax25/ax25.o net/ax25/ax25.mod.o

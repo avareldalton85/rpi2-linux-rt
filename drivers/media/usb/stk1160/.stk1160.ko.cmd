@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/stk1160/stk1160.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/stk1160/stk1160.ko drivers/media/usb/stk1160/stk1160.o drivers/media/usb/stk1160/stk1160.mod.o

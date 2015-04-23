@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/redrat3.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/redrat3.ko drivers/media/rc/redrat3.o drivers/media/rc/redrat3.mod.o

@@ -1,0 +1,1 @@
+cmd_fs/ocfs2/dlm/ocfs2_dlm.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o fs/ocfs2/dlm/ocfs2_dlm.ko fs/ocfs2/dlm/ocfs2_dlm.o fs/ocfs2/dlm/ocfs2_dlm.mod.o

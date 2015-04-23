@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/ums-karma.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/storage/ums-karma.ko drivers/usb/storage/ums-karma.o drivers/usb/storage/ums-karma.mod.o

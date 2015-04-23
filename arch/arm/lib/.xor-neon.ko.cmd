@@ -1,0 +1,1 @@
+cmd_arch/arm/lib/xor-neon.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o arch/arm/lib/xor-neon.ko arch/arm/lib/xor-neon.o arch/arm/lib/xor-neon.mod.o

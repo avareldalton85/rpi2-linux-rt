@@ -1,0 +1,1 @@
+cmd_drivers/net/can/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/net/can/built-in.o drivers/net/can/spi/built-in.o drivers/net/can/usb/built-in.o drivers/net/can/softing/built-in.o 

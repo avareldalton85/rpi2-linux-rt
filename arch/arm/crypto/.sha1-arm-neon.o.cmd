@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/sha1-arm-neon.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o arch/arm/crypto/sha1-arm-neon.o arch/arm/crypto/sha1-armv7-neon.o arch/arm/crypto/sha1_neon_glue.o 

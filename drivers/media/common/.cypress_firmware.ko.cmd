@@ -1,0 +1,1 @@
+cmd_drivers/media/common/cypress_firmware.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/common/cypress_firmware.ko drivers/media/common/cypress_firmware.o drivers/media/common/cypress_firmware.mod.o

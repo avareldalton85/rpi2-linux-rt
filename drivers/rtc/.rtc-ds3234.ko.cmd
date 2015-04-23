@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-ds3234.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/rtc/rtc-ds3234.ko drivers/rtc/rtc-ds3234.o drivers/rtc/rtc-ds3234.mod.o

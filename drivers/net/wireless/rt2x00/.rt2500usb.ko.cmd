@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rt2x00/rt2500usb.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/rt2x00/rt2500usb.ko drivers/net/wireless/rt2x00/rt2500usb.o drivers/net/wireless/rt2x00/rt2500usb.mod.o

@@ -1,0 +1,1 @@
+pcf8523-rtc-overlay.o: arch/arm/boot/dts/pcf8523-rtc-overlay.dts

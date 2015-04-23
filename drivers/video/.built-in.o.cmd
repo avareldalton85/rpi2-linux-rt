@@ -1,0 +1,1 @@
+cmd_drivers/video/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/video/built-in.o drivers/video/console/built-in.o drivers/video/logo/built-in.o drivers/video/backlight/built-in.o drivers/video/fbdev/built-in.o 

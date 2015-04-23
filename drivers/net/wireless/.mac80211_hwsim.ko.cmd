@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mac80211_hwsim.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/mac80211_hwsim.ko drivers/net/wireless/mac80211_hwsim.o drivers/net/wireless/mac80211_hwsim.mod.o

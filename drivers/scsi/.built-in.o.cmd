@@ -1,0 +1,1 @@
+cmd_drivers/scsi/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/scsi/built-in.o drivers/scsi/scsi_mod.o drivers/scsi/scsi_transport_iscsi.o drivers/scsi/arm/built-in.o drivers/scsi/sd_mod.o 

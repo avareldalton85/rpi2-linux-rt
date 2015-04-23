@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/libertas/libertas_sdio.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/net/wireless/libertas/libertas_sdio.o drivers/net/wireless/libertas/if_sdio.o 

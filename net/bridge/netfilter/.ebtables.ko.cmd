@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebtables.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/bridge/netfilter/ebtables.ko net/bridge/netfilter/ebtables.o net/bridge/netfilter/ebtables.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/bcm203x.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/bluetooth/bcm203x.ko drivers/bluetooth/bcm203x.o drivers/bluetooth/bcm203x.mod.o

@@ -1,0 +1,1 @@
+cmd_net/netfilter/nfnetlink_log.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/nfnetlink_log.ko net/netfilter/nfnetlink_log.o net/netfilter/nfnetlink_log.mod.o

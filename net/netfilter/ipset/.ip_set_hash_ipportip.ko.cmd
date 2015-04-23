@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_hash_ipportip.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/ipset/ip_set_hash_ipportip.ko net/netfilter/ipset/ip_set_hash_ipportip.o net/netfilter/ipset/ip_set_hash_ipportip.mod.o

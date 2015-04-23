@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/safe_serial.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/serial/safe_serial.ko drivers/usb/serial/safe_serial.o drivers/usb/serial/safe_serial.mod.o

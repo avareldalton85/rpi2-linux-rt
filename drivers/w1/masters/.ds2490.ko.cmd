@@ -1,0 +1,1 @@
+cmd_drivers/w1/masters/ds2490.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/w1/masters/ds2490.ko drivers/w1/masters/ds2490.o drivers/w1/masters/ds2490.mod.o

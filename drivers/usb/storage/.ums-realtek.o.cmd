@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/ums-realtek.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/usb/storage/ums-realtek.o drivers/usb/storage/realtek_cr.o 

@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/nf_nat_proto_gre.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/ipv4/netfilter/nf_nat_proto_gre.ko net/ipv4/netfilter/nf_nat_proto_gre.o net/ipv4/netfilter/nf_nat_proto_gre.mod.o

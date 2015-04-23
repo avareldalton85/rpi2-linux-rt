@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/bcm2708-rng.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/char/hw_random/bcm2708-rng.ko drivers/char/hw_random/bcm2708-rng.o drivers/char/hw_random/bcm2708-rng.mod.o

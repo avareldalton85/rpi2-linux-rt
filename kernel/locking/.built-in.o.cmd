@@ -1,0 +1,1 @@
+cmd_kernel/locking/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o kernel/locking/built-in.o kernel/locking/semaphore.o kernel/locking/mcs_spinlock.o kernel/locking/spinlock.o kernel/locking/lglock.o kernel/locking/rtmutex.o kernel/locking/rt.o 

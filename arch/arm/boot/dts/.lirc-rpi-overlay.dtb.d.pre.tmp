@@ -1,0 +1,1 @@
+lirc-rpi-overlay.o: arch/arm/boot/dts/lirc-rpi-overlay.dts

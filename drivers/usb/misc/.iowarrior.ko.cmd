@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/iowarrior.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/misc/iowarrior.ko drivers/usb/misc/iowarrior.o drivers/usb/misc/iowarrior.mod.o

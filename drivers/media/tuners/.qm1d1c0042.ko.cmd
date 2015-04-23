@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/qm1d1c0042.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/qm1d1c0042.ko drivers/media/tuners/qm1d1c0042.o drivers/media/tuners/qm1d1c0042.mod.o

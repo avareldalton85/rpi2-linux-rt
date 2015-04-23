@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/ti_usb_3410_5052.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/serial/ti_usb_3410_5052.ko drivers/usb/serial/ti_usb_3410_5052.o drivers/usb/serial/ti_usb_3410_5052.mod.o

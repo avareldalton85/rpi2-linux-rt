@@ -1,0 +1,1 @@
+cmd_net/openvswitch/openvswitch.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/openvswitch/openvswitch.ko net/openvswitch/openvswitch.o net/openvswitch/openvswitch.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/usbvision/usbvision.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/media/usb/usbvision/usbvision.o drivers/media/usb/usbvision/usbvision-core.o drivers/media/usb/usbvision/usbvision-video.o drivers/media/usb/usbvision/usbvision-i2c.o drivers/media/usb/usbvision/usbvision-cards.o 

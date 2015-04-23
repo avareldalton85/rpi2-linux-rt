@@ -1,0 +1,1 @@
+cmd_crypto/tgr192.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o crypto/tgr192.ko crypto/tgr192.o crypto/tgr192.mod.o

@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conntrack_ftp.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/nf_conntrack_ftp.ko net/netfilter/nf_conntrack_ftp.o net/netfilter/nf_conntrack_ftp.mod.o

@@ -1,0 +1,1 @@
+cmd_net/bluetooth/hidp/hidp.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o net/bluetooth/hidp/hidp.o net/bluetooth/hidp/core.o net/bluetooth/hidp/sock.o 

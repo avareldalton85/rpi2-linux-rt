@@ -1,0 +1,1 @@
+cmd_drivers/w1/masters/w1-gpio.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/w1/masters/w1-gpio.ko drivers/w1/masters/w1-gpio.o drivers/w1/masters/w1-gpio.mod.o

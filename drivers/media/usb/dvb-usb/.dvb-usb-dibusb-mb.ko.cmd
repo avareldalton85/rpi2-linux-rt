@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-dibusb-mb.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb/dvb-usb-dibusb-mb.ko drivers/media/usb/dvb-usb/dvb-usb-dibusb-mb.o drivers/media/usb/dvb-usb/dvb-usb-dibusb-mb.mod.o

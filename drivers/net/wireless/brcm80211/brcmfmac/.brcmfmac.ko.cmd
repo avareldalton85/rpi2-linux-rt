@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/brcm80211/brcmfmac/brcmfmac.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/brcm80211/brcmfmac/brcmfmac.ko drivers/net/wireless/brcm80211/brcmfmac/brcmfmac.o drivers/net/wireless/brcm80211/brcmfmac/brcmfmac.mod.o

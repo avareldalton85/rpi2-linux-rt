@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_nat_irc.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/nf_nat_irc.ko net/netfilter/nf_nat_irc.o net/netfilter/nf_nat_irc.mod.o

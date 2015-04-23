@@ -1,0 +1,1 @@
+cmd_drivers/media/mmc/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/media/mmc/built-in.o drivers/media/mmc/siano/built-in.o 

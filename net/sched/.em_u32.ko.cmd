@@ -1,0 +1,1 @@
+cmd_net/sched/em_u32.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/em_u32.ko net/sched/em_u32.o net/sched/em_u32.mod.o

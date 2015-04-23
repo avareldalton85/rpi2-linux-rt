@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/iuu_phoenix.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/serial/iuu_phoenix.ko drivers/usb/serial/iuu_phoenix.o drivers/usb/serial/iuu_phoenix.mod.o

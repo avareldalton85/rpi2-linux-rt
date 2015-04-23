@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_bitmap_ipmac.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/ipset/ip_set_bitmap_ipmac.ko net/netfilter/ipset/ip_set_bitmap_ipmac.o net/netfilter/ipset/ip_set_bitmap_ipmac.mod.o

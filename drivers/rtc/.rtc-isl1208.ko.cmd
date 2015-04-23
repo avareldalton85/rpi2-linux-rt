@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-isl1208.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/rtc/rtc-isl1208.ko drivers/rtc/rtc-isl1208.o drivers/rtc/rtc-isl1208.mod.o

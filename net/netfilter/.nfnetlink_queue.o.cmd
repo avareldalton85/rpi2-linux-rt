@@ -1,0 +1,1 @@
+cmd_net/netfilter/nfnetlink_queue.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o net/netfilter/nfnetlink_queue.o net/netfilter/nfnetlink_queue_core.o 

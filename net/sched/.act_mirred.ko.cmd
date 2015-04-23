@@ -1,0 +1,1 @@
+cmd_net/sched/act_mirred.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/act_mirred.ko net/sched/act_mirred.o net/sched/act_mirred.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/kalmia.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/usb/kalmia.ko drivers/net/usb/kalmia.o drivers/net/usb/kalmia.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/v4l2-core/v4l2-common.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/v4l2-core/v4l2-common.ko drivers/media/v4l2-core/v4l2-common.o drivers/media/v4l2-core/v4l2-common.mod.o

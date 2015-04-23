@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/isl6423.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/isl6423.ko drivers/media/dvb-frontends/isl6423.o drivers/media/dvb-frontends/isl6423.mod.o

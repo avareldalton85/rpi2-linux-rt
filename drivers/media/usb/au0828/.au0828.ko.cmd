@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/au0828/au0828.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/au0828/au0828.ko drivers/media/usb/au0828/au0828.o drivers/media/usb/au0828/au0828.mod.o

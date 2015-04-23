@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/cx24116.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/cx24116.ko drivers/media/dvb-frontends/cx24116.o drivers/media/dvb-frontends/cx24116.mod.o

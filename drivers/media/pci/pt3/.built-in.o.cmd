@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/pt3/built-in.o :=  rm -f drivers/media/pci/pt3/built-in.o; ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ar rcsD drivers/media/pci/pt3/built-in.o

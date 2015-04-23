@@ -1,0 +1,1 @@
+cmd_fs/dlm/dlm.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o fs/dlm/dlm.ko fs/dlm/dlm.o fs/dlm/dlm.mod.o

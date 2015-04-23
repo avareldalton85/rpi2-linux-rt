@@ -1,0 +1,1 @@
+cmd_net/8021q/8021q.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o net/8021q/8021q.o net/8021q/vlan.o net/8021q/vlan_dev.o net/8021q/vlan_netlink.o net/8021q/vlan_gvrp.o net/8021q/vlanproc.o 

@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/aes-arm.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o arch/arm/crypto/aes-arm.ko arch/arm/crypto/aes-arm.o arch/arm/crypto/aes-arm.mod.o

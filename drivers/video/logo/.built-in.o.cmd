@@ -1,0 +1,1 @@
+cmd_drivers/video/logo/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/video/logo/built-in.o drivers/video/logo/logo.o drivers/video/logo/logo_linux_clut224.o 

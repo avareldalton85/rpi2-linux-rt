@@ -1,0 +1,1 @@
+cmd_drivers/char/broadcom/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/char/broadcom/built-in.o drivers/char/broadcom/vc_cma/built-in.o drivers/char/broadcom/vc_sm/built-in.o 

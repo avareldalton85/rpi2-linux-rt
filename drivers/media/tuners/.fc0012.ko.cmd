@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/fc0012.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/fc0012.ko drivers/media/tuners/fc0012.o drivers/media/tuners/fc0012.mod.o

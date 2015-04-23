@@ -1,0 +1,1 @@
+cmd_drivers/dma-buf/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/dma-buf/built-in.o drivers/dma-buf/dma-buf.o drivers/dma-buf/fence.o drivers/dma-buf/reservation.o drivers/dma-buf/seqno-fence.o 

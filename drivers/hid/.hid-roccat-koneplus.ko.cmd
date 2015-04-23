@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-koneplus.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-roccat-koneplus.ko drivers/hid/hid-roccat-koneplus.o drivers/hid/hid-roccat-koneplus.mod.o

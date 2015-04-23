@@ -1,0 +1,1 @@
+cmd_net/netrom/netrom.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netrom/netrom.ko net/netrom/netrom.o net/netrom/netrom.mod.o

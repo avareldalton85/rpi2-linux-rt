@@ -1,0 +1,1 @@
+cmd_drivers/net/hamradio/baycom_ser_fdx.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/hamradio/baycom_ser_fdx.ko drivers/net/hamradio/baycom_ser_fdx.o drivers/net/hamradio/baycom_ser_fdx.mod.o

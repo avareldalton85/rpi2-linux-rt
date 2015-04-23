@@ -1,0 +1,1 @@
+cmd_net/bluetooth/bluetooth_6lowpan.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o net/bluetooth/bluetooth_6lowpan.o net/bluetooth/6lowpan.o 

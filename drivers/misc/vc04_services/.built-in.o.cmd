@@ -1,0 +1,1 @@
+cmd_drivers/misc/vc04_services/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/misc/vc04_services/built-in.o drivers/misc/vc04_services/vchiq.o 

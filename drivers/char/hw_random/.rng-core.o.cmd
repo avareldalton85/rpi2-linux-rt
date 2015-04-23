@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/rng-core.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/char/hw_random/rng-core.o drivers/char/hw_random/core.o 

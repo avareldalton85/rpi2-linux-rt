@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/lirc/lirc_igorplugusb.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/media/lirc/lirc_igorplugusb.ko drivers/staging/media/lirc/lirc_igorplugusb.o drivers/staging/media/lirc/lirc_igorplugusb.mod.o

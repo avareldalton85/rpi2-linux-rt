@@ -1,0 +1,1 @@
+cmd_drivers/thermal/samsung/built-in.o :=  rm -f drivers/thermal/samsung/built-in.o; ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ar rcsD drivers/thermal/samsung/built-in.o

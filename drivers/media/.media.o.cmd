@@ -1,0 +1,1 @@
+cmd_drivers/media/media.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/media/media.o drivers/media/media-device.o drivers/media/media-devnode.o drivers/media/media-entity.o 

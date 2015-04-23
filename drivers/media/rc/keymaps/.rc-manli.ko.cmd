@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-manli.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-manli.ko drivers/media/rc/keymaps/rc-manli.o drivers/media/rc/keymaps/rc-manli.mod.o

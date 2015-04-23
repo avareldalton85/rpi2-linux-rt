@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/mos7720.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/serial/mos7720.ko drivers/usb/serial/mos7720.o drivers/usb/serial/mos7720.mod.o

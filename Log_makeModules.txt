@@ -1,0 +1,7 @@
+  CHK     include/config/kernel.release
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+make[1]: »include/generated/mach-types.h« ist bereits aktualisiert.
+  CALL    scripts/checksyscalls.sh
+  Building modules, stage 2.
+  MODPOST 1379 modules

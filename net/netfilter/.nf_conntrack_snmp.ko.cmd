@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conntrack_snmp.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/nf_conntrack_snmp.ko net/netfilter/nf_conntrack_snmp.o net/netfilter/nf_conntrack_snmp.mod.o

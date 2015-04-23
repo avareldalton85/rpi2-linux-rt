@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/mxl5007t.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/mxl5007t.ko drivers/media/tuners/mxl5007t.o drivers/media/tuners/mxl5007t.mod.o

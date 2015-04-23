@@ -1,0 +1,1 @@
+cmd_drivers/i2c/algos/i2c-algo-bit.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/i2c/algos/i2c-algo-bit.ko drivers/i2c/algos/i2c-algo-bit.o drivers/i2c/algos/i2c-algo-bit.mod.o

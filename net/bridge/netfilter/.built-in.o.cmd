@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/built-in.o :=  rm -f net/bridge/netfilter/built-in.o; ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ar rcsD net/bridge/netfilter/built-in.o

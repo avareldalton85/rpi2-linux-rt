@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/bcm2708_wdog.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/watchdog/bcm2708_wdog.ko drivers/watchdog/bcm2708_wdog.o drivers/watchdog/bcm2708_wdog.mod.o

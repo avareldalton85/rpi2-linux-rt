@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-gp8psk.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/media/usb/dvb-usb/dvb-usb-gp8psk.o drivers/media/usb/dvb-usb/gp8psk.o drivers/media/usb/dvb-usb/gp8psk-fe.o 

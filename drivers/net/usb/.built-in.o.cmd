@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/net/usb/built-in.o drivers/net/usb/smsc95xx.o drivers/net/usb/usbnet.o 

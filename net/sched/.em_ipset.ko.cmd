@@ -1,0 +1,1 @@
+cmd_net/sched/em_ipset.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/em_ipset.ko net/sched/em_ipset.o net/sched/em_ipset.mod.o

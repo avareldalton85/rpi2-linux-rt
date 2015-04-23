@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rt2x00/rt2x00lib.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/rt2x00/rt2x00lib.ko drivers/net/wireless/rt2x00/rt2x00lib.o drivers/net/wireless/rt2x00/rt2x00lib.mod.o

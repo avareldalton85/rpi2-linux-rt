@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-rpi-dac.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o sound/soc/bcm/snd-soc-rpi-dac.o sound/soc/bcm/rpi-dac.o 

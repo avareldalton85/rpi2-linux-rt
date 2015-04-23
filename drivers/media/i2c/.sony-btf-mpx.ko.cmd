@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/sony-btf-mpx.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/i2c/sony-btf-mpx.ko drivers/media/i2c/sony-btf-mpx.o drivers/media/i2c/sony-btf-mpx.mod.o

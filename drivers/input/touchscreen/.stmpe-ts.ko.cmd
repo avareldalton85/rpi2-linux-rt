@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/stmpe-ts.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/stmpe-ts.ko drivers/input/touchscreen/stmpe-ts.o drivers/input/touchscreen/stmpe-ts.mod.o

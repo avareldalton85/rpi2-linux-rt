@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/ir-jvc-decoder.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/ir-jvc-decoder.ko drivers/media/rc/ir-jvc-decoder.o drivers/media/rc/ir-jvc-decoder.mod.o

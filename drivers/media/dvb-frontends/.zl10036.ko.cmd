@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/zl10036.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/zl10036.ko drivers/media/dvb-frontends/zl10036.o drivers/media/dvb-frontends/zl10036.mod.o

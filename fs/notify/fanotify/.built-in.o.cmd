@@ -1,0 +1,1 @@
+cmd_fs/notify/fanotify/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o fs/notify/fanotify/built-in.o fs/notify/fanotify/fanotify.o fs/notify/fanotify/fanotify_user.o 

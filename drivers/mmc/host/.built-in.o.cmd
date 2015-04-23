@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/built-in.o :=  ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/mmc/host/built-in.o drivers/mmc/host/sdhci.o drivers/mmc/host/bcm2835-mmc.o drivers/mmc/host/sdhci-pltfm.o 

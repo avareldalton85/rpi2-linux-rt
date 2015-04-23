@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath6kl/ath6kl_usb.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/ath/ath6kl/ath6kl_usb.ko drivers/net/wireless/ath/ath6kl/ath6kl_usb.o drivers/net/wireless/ath/ath6kl/ath6kl_usb.mod.o

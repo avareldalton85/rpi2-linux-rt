@@ -1,0 +1,1 @@
+cmd_drivers/usb/image/microtek.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/image/microtek.ko drivers/usb/image/microtek.o drivers/usb/image/microtek.mod.o

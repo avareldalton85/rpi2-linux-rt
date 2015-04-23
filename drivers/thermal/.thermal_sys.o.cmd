@@ -1,0 +1,1 @@
+cmd_drivers/thermal/thermal_sys.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/thermal/thermal_sys.o drivers/thermal/thermal_core.o drivers/thermal/of-thermal.o drivers/thermal/step_wise.o 

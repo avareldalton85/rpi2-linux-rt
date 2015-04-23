@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-snapshot.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/md/dm-snapshot.o drivers/md/dm-snap.o drivers/md/dm-exception-store.o drivers/md/dm-snap-transient.o drivers/md/dm-snap-persistent.o 

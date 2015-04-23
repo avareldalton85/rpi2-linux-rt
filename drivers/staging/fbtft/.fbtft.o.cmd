@@ -1,0 +1,1 @@
+cmd_drivers/staging/fbtft/fbtft.o := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL    -r -o drivers/staging/fbtft/fbtft.o drivers/staging/fbtft/fbtft-core.o drivers/staging/fbtft/fbtft-sysfs.o drivers/staging/fbtft/fbtft-bus.o drivers/staging/fbtft/fbtft-io.o 

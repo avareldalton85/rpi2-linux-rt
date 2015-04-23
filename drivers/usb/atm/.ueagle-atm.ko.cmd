@@ -1,0 +1,1 @@
+cmd_drivers/usb/atm/ueagle-atm.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/atm/ueagle-atm.ko drivers/usb/atm/ueagle-atm.o drivers/usb/atm/ueagle-atm.mod.o

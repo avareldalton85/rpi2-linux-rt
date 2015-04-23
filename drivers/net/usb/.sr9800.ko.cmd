@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/sr9800.ko := ../tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-bcm2708hardfp-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/usb/sr9800.ko drivers/net/usb/sr9800.o drivers/net/usb/sr9800.mod.o
